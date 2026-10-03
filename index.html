@@ -1,0 +1,1 @@
+<!doctype html><meta charset=utf-8><title>四王九宮</title><button id=O>莊 O</button><button id=X>閒 X</button><pre id=a></pre><script>let q=[];function r(){a.textContent='已輸入 '+q.length+' 筆\n'+q.join(' → ')+(q.length>=8?'\n九宮已建立，下一局預測：請依規則計算':'')}O.onclick=()=>{q.push('O');r()};X.onclick=()=>{q.push('X');r()};r()</script>
